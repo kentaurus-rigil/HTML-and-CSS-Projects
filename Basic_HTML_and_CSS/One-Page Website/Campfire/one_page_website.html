@@ -3,37 +3,46 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Campfire Comforts | Experience</title>
-	</head>
+		<link rel="stylesheet" href="../Campfire/one_page_website.css">
+		</head>
+		
 	<body>
 	
 	<!-- NAV -->
-	<div>
-		<div>
+	<div class="wrap">
+		<div class="menu-container">
 			<ul>
-				<a href="#home" id="link"><li>HOME</li> </a>
-				<a href="#gallery" id="link"><li>GALLERY</li> </a>
-				<a href="#contact" id="link"><li>Reservatons</li> </a>
-			</ul>
+				<a href="#home" id="link">HOME </a><br>
+				<a href="#gallery" id="link">GALLERY </a><br>
+				<a href="#contact" id="link">Reservatons </a>
+			</ul>	
+			
 		</div>
 	</div>
 	<!-- End Nav -->
 	
-	<!--HOME-->
-	<div id="home">
-		<div>
-			<div>
-				<span>Enjoy a Comforting Campfire Experience</span>
+	<!-- Home -->
+		<div id="home">
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">Campfire Experience</span>
+				</div>
 			</div>
 		</div>
-	</div>
-	<!--END HOME -->
+		<!--END HOME -->
+	
+	<!--GALLERY -->
+		<section id="gallery">
+			<div class="container">
+				<h1>Gallery<h1>
+				<div class="flex-container">
 	
 	<!-- PHOTO-CONTAINER 1 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="campfire.jpg" alt="Warm Campfire">
 							<div>
-								<h1>Click to Enlarge</h1>
+								<h1>Country Comforts</h1>
 								<p>We have a campfire every evening, book your campfire experience below.<p>
 							</div>
 						</div>
@@ -43,25 +52,29 @@
 	<!-- Video Container -->
 					<div>
 						<div>
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/XesFr4zGLCw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/VPIP9KXdmO0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					</div>
 	<!-- End Video Container -->
 	
+	<!-- END GALLERY -->
+	
+	
 	<!-- RSVP -->
-		<section>
-			<div id="contact">
-				<div>
-					<h1>Reservations</h>
-					<div>
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="padding">Reservations</h1>
+					<div class="reservation">
 						<h2><span>Time to relax by the fire.</span>
 							<br />Reserve your experience today!
 						</h2>
-						<p>
+						<p class="rsvp-text">
 							Please provide us with your basic contact information.
 						</p>
-						<div>
-							<form action="" method="post">
+						
+						  <div class="form-rsvp">
+							<form section="" method="post">
 								<input class="rsvp" type="text" value="First Name">
 								<input class="rsvp" type="text" value="Last Name">
 								<input class="rsvp" type="text" value="Email Address">
@@ -69,7 +82,7 @@
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
+								<div class="submit">
 									<input type="submit" value="Submit">
 								</div>
 							</form>
@@ -81,7 +94,7 @@
 		<!--END RSVP -->
 		
 		<!-- Footer -->
-		<div>
+		<div id="footer">
 			www.ericksonbackyard.com &nbsp; |&nbsp; &copy; 2020
 		</div>
 		<!-- End Footer -->
