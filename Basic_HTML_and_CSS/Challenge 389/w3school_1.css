@@ -1,0 +1,177 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+p:hover {
+	background-color: blue;
+	color: black;
+	font-family: verdana cursive;
+	font-size: 20px;
+	font-weight: 1000px;
+}
+/*=========================================================
+	NAV
+==========================================================*/
+.navbar {
+	height: 105px;
+	max-height: 340px;
+	display: inline;
+	color: #9932CC;
+}
+
+.wrap:hover {
+	background-color: blue;
+	color: black;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+
+.menu-container {
+	max-height: 340px;
+	margin: 0% auto;
+	content:"";
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	background: #fff;
+}
+
+
+#border { 
+  border: 10px solid black;
+  padding: 15px;
+  border-image: url(border.png) 30 round;
+  text-align: center;
+  color: red;
+  font-weight: 1000;
+  font-size: 3em;
+}
+/*================================================
+	PHOTO CONTAINER
+==================================================*/
+.photo {
+	position: relative;
+	line-height: 0;
+	margin-bottom: 5em;
+	margin-top: 5em;
+	overflow: hidden;
+	border-radius: 20px;
+	padding: 5px;
+	border:3px solid #021a40;
+	background-color: #fff;
+	box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.7);
+}
+.photo-container {
+	text-align: center;
+	margin: 20px auto;
+	width: 350px;
+	height: 200px;
+}
+
+.photo-container img {
+	max-width: 100%;
+	width: 300px;
+	height: 169px;
+	border-radius: 20px;
+}
+
+.photo-overlay {
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	justify-content: center; /* For centering text inside .photo-overlay */
+	align-items: center;
+	background: rgba (0,0,0,0.5);
+}
+
+.photo-overlay {
+	opacity: 0;
+	transition: opacity .5s;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.photo-overlay:hover {
+	opacity: 1;
+}
+
+.photo img {
+	transition: transform .5s;
+	transform-origin: 50% 50%;
+}
+
+.photo:hover img {
+	transform: scale(1.1);
+}
+/*=================================================
+	TABLE
+==================================================*/
+
+table {
+	border: 1px solid silver;
+	padding: 10px 25px 10px 25px;
+	
+}
+td:hover {
+	background-color: blue;
+	color: black;
+}
+th:hover {
+	background-color: blue;
+	color: black;
+}
+tr, th {
+	background-color: light yellow;
+	color: black;
+	padding: 10px 25px 10px 25px;
+	font-weight: 2000;
+}
+tr, td {
+	background-color: cornsilk;
+	color: black;
+	padding: 5px 15px 5px 15px;
+	font-weight: 1000;
+}
+/*==================================================
+	CONTACT
+====================================================*/
+.column {
+  float: left;
+  width: 50%;
+  color: blue;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  color: blue;
+}
+/*=====================================================
+	FOOTER
+======================================================*/
+
+#footer {
+		background-color: rgba(245, 66, 182,0.3);
+		color: #000;
+		text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
+		padding: 10px 25px 10px 25px;
+		text-align: center;
+		font-weight: 1000;
+}
+	
