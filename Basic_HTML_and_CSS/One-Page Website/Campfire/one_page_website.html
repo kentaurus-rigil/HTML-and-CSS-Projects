@@ -30,23 +30,85 @@
 			</div>
 		</div>
 		<!--END HOME -->
+		
+		<!-- Images used to open lightbox -->
+					<div class="row">
+						<div class="column">
+							<img src="roast.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+							</div>
+						<div class="column">
+							<img src="campfire.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+							</div>
+						<div class="column">
+							<img src="snowfire.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+							</div>
+						<div class="column">
+							<img src="bonfire.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+							</div>
+					</div>
+				
+	
+	<!-- The Modal/Lightbox -->
+					<div id="myModal" class="modal">
+						<span class="close cursor" onclick="closeModal()">&times;</span>
+						<div class="modal-content">
+						
+						<div class="mySlides">
+							<div class="numbertext">1 / 4</div>
+							<img src="roast.jpg" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+							<div class="numbertext">2 / 4</div>
+							<img src="campfire.jpg" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+							<div class="numbertext">3 / 4</div>
+							<img src="snowfire.jpg" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+							<div class="numbertext">4 / 4</div>
+							<img src="bonfire.jpg" style="width:100%">
+						</div>
+						
+	<!-- Next/previous controls -->
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					
+	<!-- Caption text -->
+					<div class="caption-container"
+						<p id="caption"></p>
+					</div>
+	
+	<!-- Thumbnail image controls -->
+					<div class="column">
+						<img class="demo" src="roast.jpg" onclick="currentSlide(1)" alt="Roast">
+					</div>
+					
+					<div class="column">
+						<img class="demo" src="campfire.jpg" onclick="currentSlide(2)" alt="Campfire">
+					</div>
+					
+					<div class="column">
+						<img class="demo" src="snowfire.jpg" onclick="currentSlide(3)" alt="Snowfire">
+					</div>
+						
+					<div class="column">
+						<img class="demo" src="bonfire.jpg" onclick="currentSlide(4)" alt="Bonfire">
+					</div>
+				</div>
+			</div>
 	
 	<!--GALLERY -->
 		<section id="gallery">
 			<div class="container">
-				<h1>Gallery<h1>
+				<h1>Gallery</h1>
 				<div class="flex-container">
 	
-	<!-- PHOTO-CONTAINER 1 -->
-					<div class="photo-container">
-						<div class="photo">
-							<img src="campfire.jpg" alt="Warm Campfire">
-							<div>
-								<h1>Country Comforts</h1>
-								<p>We have a campfire every evening, book your campfire experience below.<p>
-							</div>
-						</div>
-					</div>
+	
+						
 	<!-- End Photo-Container -->
 	
 	<!-- Video Container -->
@@ -55,6 +117,9 @@
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/VPIP9KXdmO0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					</div>
+				</div>
+			</div>
+		</section>
 	<!-- End Video Container -->
 	
 	<!-- END GALLERY -->
@@ -98,5 +163,6 @@
 			www.ericksonbackyard.com &nbsp; |&nbsp; &copy; 2020
 		</div>
 		<!-- End Footer -->
+		<script src="JS/one_page_website.js" defer></script>
 	</body>
 </html>
