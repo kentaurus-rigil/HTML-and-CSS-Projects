@@ -202,7 +202,11 @@ p {
 	padding: 2px 16px;
 	color: white;
 }
-
+img {
+	position: relative;
+	z-index: 1;
+}
+	
 img.demo {
 	opacity: 0.6;
 }
@@ -415,7 +419,7 @@ img.hover-shadow	{
 		color: #000;
 		text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
 		padding: 20px 50px 20px 50px;
-		text-align; right;
+		text-align: right;
 	}
 
 
