@@ -16,23 +16,23 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-info">
   
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link text-light" href="#About">About</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link text-light" href="#Showtimes">Showtimes</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link text-light" href="#Deals">Deals</a>
-      </li>
-    </ul>
+  <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Menu
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#About">About</a>
+    <a class="dropdown-item" href="#Showtimes">Showtimes</a>
+    <a class="dropdown-item" href="#Deals">Deals</a>
+  </div>
+</div>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-primary my-2 my-sm-0 text-light" type="submit">Search</button>
     </form>
   </div>
 </nav>
+
 
 <div class="jumbotron jumbotron-fluid bg-info text-center">
   <div class="container">
